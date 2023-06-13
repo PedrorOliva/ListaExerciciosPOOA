@@ -21,7 +21,7 @@ public class Retangulo {
   }
 
   public double calculaPerimetro() {
-    double perimetro = comprimento + largura;
+    double perimetro = (comprimento * largura) * 2;
     System.out.println("Perímetro do retângulo: " + perimetro);
     return perimetro;
   }
